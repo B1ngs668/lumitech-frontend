@@ -21,6 +21,17 @@ const translations = {
     panelMetricOneText: "Merchant, channel, investor, KOL and industry resource mapping",
     panelMetricTwo: "Commercial Readiness",
     panelMetricTwoText: "Positioning, use cases, partner proposals and launch planning",
+    orbitCenter: "Connecting Global Markets",
+    orbitAustralia: "Australia",
+    orbitAustraliaText: "Market entry and local partners",
+    orbitSingapore: "Singapore",
+    orbitSingaporeText: "Regional launch and ecosystem access",
+    orbitUk: "United Kingdom",
+    orbitUkText: "Brand positioning and partner readiness",
+    orbitUs: "United States",
+    orbitUsText: "Growth narrative and strategic outreach",
+    orbitMalaysia: "Malaysia",
+    orbitMalaysiaText: "Merchant and channel development",
     painEyebrow: "Expansion Challenges",
     painTitle: "Strong technology needs more than translation. It needs a market path.",
     painOne: "Many teams know their product is valuable, but have not clarified which overseas market should come first and why.",
@@ -33,9 +44,12 @@ const translations = {
       "Lumitech supports AI, Web3 and emerging technology companies that need more than marketing execution. We help founders clarify market priorities, shape a business-facing story and identify the right partners before launch resources are committed.",
     aboutTextTwo:
       "Our work combines overseas market research, business development, brand planning and commercialisation support. The goal is to help companies move from product introduction to practical conversations with merchants, channels, investors and strategic partners.",
-    statRegion: "Regional market perspectives",
-    statService: "Core service pillars",
-    statProcess: "Step execution process",
+    statOneTitle: "Market Clarity",
+    statOneText: "Identify the right country, customer segment and entry route before committing resources.",
+    statTwoTitle: "Partner Access",
+    statTwoText: "Turn target partner profiles into outreach lists, messages and cooperation conversations.",
+    statThreeTitle: "Launch Readiness",
+    statThreeText: "Prepare the positioning, materials and launch actions needed for overseas execution.",
     servicesEyebrow: "Services",
     servicesTitle: "Four connected services that take companies from market thinking to commercial action.",
     servicesSubtitle:
@@ -78,18 +92,20 @@ const translations = {
     packageThreeTitle: "Market Launch Execution",
     packageThreeText:
       "For teams preparing a visible market launch. We support brand positioning, content planning, KOL collaboration, offline activities, merchant outreach, PR and local execution coordination.",
-    packageCta: "Tell Us Your Target Market",
+    packageOneCta: "Diagnose Your Expansion Direction",
+    packageTwoCta: "Build Partner Pipeline",
+    packageThreeCta: "Plan Market Launch",
     marketsEyebrow: "Who We Work With",
     marketsTitle: "For founders and teams that need overseas partners, channels and early market traction.",
     marketsText:
       "We focus on companies that already have a technology product or platform, but need help adapting the proposition, finding local partners and turning expansion intent into a practical market plan.",
     marketsCta: "Start Your Expansion Plan",
     clientOne: "AI application companies",
-    clientTwo: "Web3 projects",
+    clientTwo: "Web3 commerce and payment projects",
     clientThree: "Cross-border commerce platforms",
     clientFour: "Robotics, Robotaxi and smart hardware",
     clientFive: "Digital payment and Fintech companies",
-    clientSix: "Chinese innovation technology firms seeking overseas partners",
+    clientSix: "China-based innovation technology companies seeking overseas partners",
     processEyebrow: "How We Work",
     processTitle: "A clear process that turns expansion intent into executable action.",
     processOne: "Discover",
@@ -151,7 +167,7 @@ const translations = {
     heroEyebrow: "Lumitech 光潮科技",
     heroTitle: "AI与创新科技企业的 海外增长伙伴",
     heroSubtitle:
-      "我们帮助创新科技企业把产品优势转化为海外市场策略、伙伴沟通和商业启动计划。",
+      "将产品优势转化为海外市场策略、伙伴沟通和商业启动计划。",
     heroPrimary: "开始出海咨询",
     heroSecondary: "了解服务内容",
     panelLabel: "出海重点市场",
@@ -161,6 +177,17 @@ const translations = {
     panelMetricOneText: "商家、渠道、投资人、KOL与产业资源梳理",
     panelMetricTwo: "商业化准备",
     panelMetricTwoText: "定位、场景、合作方案与启动计划",
+    orbitCenter: "连接全球市场",
+    orbitAustralia: "澳大利亚",
+    orbitAustraliaText: "市场进入与本地伙伴",
+    orbitSingapore: "新加坡",
+    orbitSingaporeText: "区域启动与生态连接",
+    orbitUk: "英国",
+    orbitUkText: "品牌定位与合作准备",
+    orbitUs: "美国",
+    orbitUsText: "增长叙事与战略外联",
+    orbitMalaysia: "马来西亚",
+    orbitMalaysiaText: "商家与渠道拓展",
     painEyebrow: "出海常见挑战",
     painTitle: "出海不是简单翻译产品，而是建立清晰的市场路径。",
     painOne: "很多团队知道产品有价值，但还没有判断哪个国家市场应该先进入，以及为什么先进入。",
@@ -170,12 +197,15 @@ const translations = {
     aboutEyebrow: "关于 Lumitech",
     aboutTitle: "帮助创新科技企业从产品潜力走向海外市场机会。",
     aboutTextOne:
-      "Lumitech 服务准备进入海外市场的 AI、Web3 与创新科技企业。我们不只是协助做宣传，而是帮助创始团队明确目标市场、梳理商业故事，并在正式投入资源前建立可验证的伙伴拓展路径。",
+      "Lumitech 服务准备进入海外市场的 AI、Web3 与创新科技企业。我们不只是做宣传执行，更关注目标市场判断、商业故事梳理，以及正式投入资源前可验证的伙伴拓展路径。",
     aboutTextTwo:
-      "我们的工作结合海外市场研究、商务拓展、品牌策划和商业化包装，帮助企业从“介绍产品”走向“与商家、渠道、投资人和战略伙伴展开有效对话”。",
-    statRegion: "区域市场视角",
-    statService: "核心服务板块",
-    statProcess: "落地执行流程",
+      "我们的工作结合海外市场研究、商务拓展、品牌策划和商业化包装，让企业从“介绍产品”走向“与商家、渠道、投资人和战略伙伴展开有效对话”。",
+    statOneTitle: "市场判断",
+    statOneText: "在投入资源前，先明确目标国家、客户群体和进入路径。",
+    statTwoTitle: "伙伴拓展",
+    statTwoText: "把目标伙伴画像转化为名单、外联信息和可推进的合作沟通。",
+    statThreeTitle: "落地准备",
+    statThreeText: "准备海外执行所需的定位、材料、推广动作和启动计划。",
     servicesEyebrow: "服务内容",
     servicesTitle: "四类服务串联企业出海从判断到行动的过程。",
     servicesSubtitle:
@@ -209,23 +239,25 @@ const translations = {
     packageOneLabel: "Starter",
     packageOneTitle: "出海策略诊断",
     packageOneText:
-      "适合还在判断从哪里开始的团队。我们协助明确市场方向、竞争格局、目标客户、商业模式假设和第一阶段推广路径。",
+      "适合还在判断从哪里开始的团队。交付重点包括市场方向、竞争格局、目标客户、商业模式假设和第一阶段推广路径。",
     packageTwoLabel: "Growth",
     packageTwoTitle: "海外合作伙伴拓展",
     packageTwoText:
-      "适合产品已具备商务拓展条件的企业。我们协助建立伙伴名单、设计外联逻辑、支持初步接洽，并包装合作方案。",
+      "适合产品已具备商务拓展条件的企业。交付重点包括伙伴名单、外联逻辑、初步接洽支持和合作方案包装。",
     packageThreeLabel: "Launch",
-    packageThreeTitle: "海外市场推广落地",
+    packageThreeTitle: "海外市场启动落地",
     packageThreeText:
-      "适合准备正式启动某个国家市场的团队。我们支持品牌定位、内容规划、KOL合作、线下活动、商家拓展、PR传播和本地执行协调。",
-    packageCta: "告诉我们你的目标市场",
+      "适合准备正式启动某个国家市场的团队。交付重点包括品牌定位、内容规划、KOL合作、线下活动、商家拓展、PR传播和本地执行协调。",
+    packageOneCta: "诊断出海方向",
+    packageTwoCta: "建立伙伴管线",
+    packageThreeCta: "规划市场启动",
     marketsEyebrow: "我们服务的客户",
     marketsTitle: "面向需要海外伙伴、渠道和早期市场验证的创新科技团队。",
     marketsText:
-      "我们更适合已经有技术产品或平台，但需要调整海外表达、寻找本地伙伴、验证商业路径，并把出海想法变成可执行计划的团队。",
+      "更适合已经有技术产品或平台，但需要调整海外表达、寻找本地伙伴、验证商业路径，并把出海想法变成可执行计划的团队。",
     marketsCta: "开始制定海外拓展方案",
     clientOne: "AI应用公司",
-    clientTwo: "Web3项目方",
+    clientTwo: "Web3商业与支付项目方",
     clientThree: "跨境电商平台",
     clientFour: "机器人、Robotaxi与智能硬件公司",
     clientFive: "数字支付与Fintech公司",
@@ -265,7 +297,7 @@ const translations = {
     contactEyebrow: "联系我们",
     contactTitle: "告诉我们你的目标市场，我们一起明确下一步。",
     contactText:
-      "留下你的公司、行业、目标国家和当前挑战，我们将根据项目阶段判断适合的咨询路径。",
+      "留下公司、行业、目标国家和当前挑战，我们会根据项目阶段判断适合的咨询路径。",
     contactLocation: "",
     formName: "姓名",
     formCompany: "公司",
@@ -294,6 +326,7 @@ const navLinks = Array.from(document.querySelectorAll(".nav-links a"));
 const sections = navLinks
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
+const globeContainer = document.querySelector("[data-earth-globe]");
 const revealTargets = document.querySelectorAll(
   ".section-heading, .pain-list article, .about-copy, .service-card, .package-card, .markets-grid > div, .market-tags span, .process-track, .experience-list article, .insight-card, .contact-grid > div, .contact-form",
 );
@@ -421,9 +454,302 @@ form.addEventListener("submit", (event) => {
     `${labels[5]}: ${data.get("contact")}`,
   ].join("\n");
 
-  window.location.href = `mailto:hello@lumitech.hk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:cookiefindu@qq.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
+
+async function initEarthGlobe() {
+  if (!globeContainer) {
+    return;
+  }
+
+  const canvas = globeContainer.querySelector(".globe-canvas");
+
+  try {
+    const THREE = await import("https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js");
+    const scene = new THREE.Scene();
+    const renderer = new THREE.WebGLRenderer({
+      canvas,
+      alpha: true,
+      antialias: true,
+    });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+    const camera = new THREE.PerspectiveCamera(36, 1, 0.1, 100);
+    camera.position.set(0, 0, 5.2);
+
+    const group = new THREE.Group();
+    scene.add(group);
+
+    const earth = new THREE.Mesh(
+      new THREE.SphereGeometry(1.62, 96, 96),
+      new THREE.MeshStandardMaterial({
+        color: 0xffffff,
+        roughness: 0.72,
+        metalness: 0.01,
+      }),
+    );
+    group.add(earth);
+
+    const lineMaterial = new THREE.LineBasicMaterial({
+      color: 0x071d3a,
+      transparent: true,
+      opacity: 0.34,
+    });
+    const globeRadius = 1.635;
+
+    function createLatitudeLine(lat) {
+      const y = Math.sin(lat) * globeRadius;
+      const radius = Math.cos(lat) * globeRadius;
+      const points = [];
+      for (let i = 0; i <= 160; i += 1) {
+        const angle = (i / 160) * Math.PI * 2;
+        points.push(new THREE.Vector3(Math.cos(angle) * radius, y, Math.sin(angle) * radius));
+      }
+      return new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), lineMaterial);
+    }
+
+    function createLongitudeLine(lon) {
+      const points = [];
+      for (let i = 0; i <= 160; i += 1) {
+        const phi = (i / 160) * Math.PI;
+        points.push(
+          new THREE.Vector3(
+            -globeRadius * Math.sin(phi) * Math.cos(lon),
+            globeRadius * Math.cos(phi),
+            globeRadius * Math.sin(phi) * Math.sin(lon),
+          ),
+        );
+      }
+      return new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), lineMaterial);
+    }
+
+    for (let lat = -60; lat <= 60; lat += 20) {
+      group.add(createLatitudeLine((lat * Math.PI) / 180));
+    }
+
+    for (let lon = 0; lon < 360; lon += 20) {
+      group.add(createLongitudeLine((lon * Math.PI) / 180));
+    }
+
+    const borderMaterial = new THREE.LineBasicMaterial({
+      color: 0x071d3a,
+      transparent: true,
+      opacity: 0.58,
+    });
+
+    async function addCountryOutlines() {
+      const response = await fetch("https://cdn.jsdelivr.net/gh/johan/world.geo.json@master/countries.geo.json");
+      const geoJson = await response.json();
+      const borderGroup = new THREE.Group();
+
+      function addRing(coordinates) {
+        const points = coordinates
+          .filter((coordinate) => Array.isArray(coordinate) && coordinate.length >= 2)
+          .map(([lon, lat]) => latLonToVector3(lat, lon, 1.682));
+
+        if (points.length > 1) {
+          borderGroup.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), borderMaterial));
+        }
+      }
+
+      geoJson.features.forEach((feature) => {
+        const { geometry } = feature;
+        if (!geometry) {
+          return;
+        }
+
+        if (geometry.type === "Polygon") {
+          geometry.coordinates.forEach(addRing);
+        }
+
+        if (geometry.type === "MultiPolygon") {
+          geometry.coordinates.forEach((polygon) => polygon.forEach(addRing));
+        }
+      });
+
+      group.add(borderGroup);
+    }
+
+    const atmosphere = new THREE.Mesh(
+      new THREE.SphereGeometry(1.69, 96, 96),
+      new THREE.MeshBasicMaterial({
+        color: 0x0877c9,
+        transparent: true,
+        opacity: 0.055,
+        side: THREE.BackSide,
+      }),
+    );
+    group.add(atmosphere);
+
+    const markerMaterial = new THREE.MeshBasicMaterial({ color: 0x0877c9 });
+    const hkMarkerMaterial = new THREE.MeshBasicMaterial({ color: 0xd8a44d });
+    const haloMaterial = new THREE.MeshBasicMaterial({
+      color: 0xd8a44d,
+      transparent: true,
+      opacity: 0.24,
+    });
+    const hub = { lat: 22.3193, lon: 114.1694, size: 0.058, isHub: true };
+    const markets = [
+      hub,
+      { lat: -25.2744, lon: 133.7751, size: 0.044 },
+      { lat: 1.3521, lon: 103.8198, size: 0.044 },
+      { lat: 55.3781, lon: -3.436, size: 0.044 },
+      { lat: 37.0902, lon: -95.7129, size: 0.044 },
+      { lat: 4.2105, lon: 101.9758, size: 0.044 },
+    ];
+
+    function latLonToVector3(lat, lon, radius) {
+      const phi = (90 - lat) * (Math.PI / 180);
+      const theta = (lon + 180) * (Math.PI / 180);
+      return new THREE.Vector3(
+        -radius * Math.sin(phi) * Math.cos(theta),
+        radius * Math.cos(phi),
+        radius * Math.sin(phi) * Math.sin(theta),
+      );
+    }
+
+    markets.forEach((market) => {
+      const marker = new THREE.Mesh(
+        new THREE.SphereGeometry(market.size, 24, 24),
+        market.isHub ? hkMarkerMaterial : markerMaterial,
+      );
+      marker.position.copy(latLonToVector3(market.lat, market.lon, 1.72));
+      group.add(marker);
+
+      const halo = new THREE.Mesh(
+        new THREE.SphereGeometry(market.size * 1.75, 24, 24),
+        haloMaterial,
+      );
+      halo.position.copy(latLonToVector3(market.lat, market.lon, 1.715));
+      group.add(halo);
+    });
+
+    const arcMaterial = new THREE.LineBasicMaterial({
+      color: 0x0877c9,
+      transparent: true,
+      opacity: 0.72,
+    });
+    const arcPulseMaterial = new THREE.MeshBasicMaterial({ color: 0xd8a44d });
+    const arcPulses = [];
+
+    function createArc(start, end) {
+      const startPoint = latLonToVector3(start.lat, start.lon, 1.73);
+      const endPoint = latLonToVector3(end.lat, end.lon, 1.73);
+      const midPoint = startPoint.clone().add(endPoint).multiplyScalar(0.5).normalize().multiplyScalar(2.35);
+      const curve = new THREE.QuadraticBezierCurve3(startPoint, midPoint, endPoint);
+      const points = curve.getPoints(80);
+      const arc = new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), arcMaterial);
+      group.add(arc);
+
+      const pulse = new THREE.Mesh(new THREE.SphereGeometry(0.022, 16, 16), arcPulseMaterial);
+      pulse.userData.curve = curve;
+      pulse.userData.progress = Math.random();
+      pulse.userData.speed = 0.0035 + Math.random() * 0.002;
+      group.add(pulse);
+      arcPulses.push(pulse);
+    }
+
+    markets.filter((market) => !market.isHub).forEach((market) => createArc(hub, market));
+
+    addCountryOutlines().catch(() => {
+      // The graticule remains visible if the country outline CDN is unavailable.
+    });
+
+    scene.add(new THREE.AmbientLight(0xffffff, 2.3));
+    const keyLight = new THREE.DirectionalLight(0xffffff, 2.4);
+    keyLight.position.set(3, 2, 4);
+    scene.add(keyLight);
+    const fillLight = new THREE.DirectionalLight(0x78c7ff, 0.7);
+    fillLight.position.set(-3, -1, 2);
+    scene.add(fillLight);
+
+    function resize() {
+      const { width, height } = globeContainer.getBoundingClientRect();
+      renderer.setSize(width, height, false);
+      camera.aspect = width / Math.max(height, 1);
+      camera.updateProjectionMatrix();
+    }
+
+    const resizeObserver = new ResizeObserver(resize);
+    resizeObserver.observe(globeContainer);
+    resize();
+
+    group.rotation.y = -2.45;
+    group.rotation.x = 0.15;
+    let isDragging = false;
+    let previousPointer = { x: 0, y: 0 };
+    let rotationVelocity = { x: 0, y: 0.0022 };
+
+    function getPointer(event) {
+      const source = event.touches ? event.touches[0] : event;
+      return { x: source.clientX, y: source.clientY };
+    }
+
+    function startDrag(event) {
+      isDragging = true;
+      previousPointer = getPointer(event);
+      rotationVelocity = { x: 0, y: 0 };
+      globeContainer.classList.add("is-dragging");
+      document.body.classList.add("is-globe-dragging");
+    }
+
+    function moveDrag(event) {
+      if (!isDragging) {
+        return;
+      }
+
+      event.preventDefault();
+      const pointer = getPointer(event);
+      const deltaX = pointer.x - previousPointer.x;
+      const deltaY = pointer.y - previousPointer.y;
+      group.rotation.y += deltaX * 0.006;
+      group.rotation.x += deltaY * 0.004;
+      group.rotation.x = Math.max(-0.9, Math.min(0.9, group.rotation.x));
+      rotationVelocity = { x: deltaY * 0.00045, y: deltaX * 0.0007 };
+      previousPointer = pointer;
+    }
+
+    function endDrag() {
+      isDragging = false;
+      globeContainer.classList.remove("is-dragging");
+      document.body.classList.remove("is-globe-dragging");
+    }
+
+    globeContainer.addEventListener("mousedown", startDrag);
+    window.addEventListener("mousemove", moveDrag);
+    window.addEventListener("mouseup", endDrag);
+    globeContainer.addEventListener("touchstart", startDrag, { passive: true });
+    window.addEventListener("touchmove", moveDrag, { passive: false });
+    window.addEventListener("touchend", endDrag);
+
+    function animate() {
+      if (!isDragging) {
+        group.rotation.y += rotationVelocity.y || 0.0014;
+        group.rotation.x += rotationVelocity.x;
+        rotationVelocity.x *= 0.94;
+        rotationVelocity.y = (rotationVelocity.y || 0.0014) * 0.985;
+        if (Math.abs(rotationVelocity.y) < 0.0012) {
+          rotationVelocity.y = 0.0012;
+        }
+      }
+
+      arcPulses.forEach((pulse) => {
+        pulse.userData.progress = (pulse.userData.progress + pulse.userData.speed) % 1;
+        pulse.position.copy(pulse.userData.curve.getPoint(pulse.userData.progress));
+      });
+
+      renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+    globeContainer.classList.add("globe-ready");
+  } catch (error) {
+    globeContainer.classList.add("globe-fallback-visible");
+  }
+}
 
 setLanguage(state.lang);
 setActiveNav("home");
 toggleBackToTop();
+initEarthGlobe();
